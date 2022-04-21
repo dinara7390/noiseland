@@ -1,0 +1,115 @@
+@import "vars";
+@import "container";
+
+.header {
+    .container {}
+
+    .header__navbar {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2.3%;
+        width: 1190px;
+    }
+
+    &__logo {
+        margin: 37px 0 37px 120px;
+    }
+
+
+    &__menu {
+        display: flex;
+        margin-right: -100px;
+        margin-top: -4px;
+        margin-left: 44px;
+    }
+
+
+    &__list {
+        font-family: $navbar;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: $main-color;
+        margin-left: 40px;
+    }
+
+
+
+    hr {
+        line-height: 2px;
+        max-width: 1490px;
+    }
+
+
+
+    &__blog {
+        display: flex;
+        flex-direction: row;
+        margin-top: 72px;
+        margin-left: 130px;
+
+        &__blog-img {
+            width: 721px;
+            height: 474px;
+            margin-top: 5px;
+            margin: 0 105px 15px;
+            border-radius: 0px;
+
+        }
+    }
+
+    &__blog-info {
+        width: 410px;
+        margin-left: 57px;
+        margin-top: -15px;
+    }
+
+    &__blog-outline {
+        font-family: $navbar;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $second-color;
+        width: 90px;
+        margin: 15px 5px;
+    }
+
+
+    &__blog-title {
+        width: 429px;
+        font-family: $header;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 117%;
+        text-transform: uppercase;
+        color: $main-color;
+
+    }
+
+    &__blog-text {
+        font-family: $a-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $color;
+    }
+
+    &__blog-a {
+        font-family: $navbar;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $main-color;
+        margin-left: 5px;
+
+    }
+}

@@ -1,0 +1,89 @@
+@import "vars";
+@import "container";
+
+.mini {
+    // .container {}
+    margin: 100px;
+
+
+    &__link {
+        font-family: $navbar;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $second-color;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        border-radius: 5px red;
+        margin-left: 35px;
+        margin-top: 35px;
+    }
+
+    &__img {
+        width: 285px;
+    }
+
+    &__about {
+        font-family: $navbar;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $second-color;
+    }
+
+    &__text {
+        font-family: $header;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: $main-color;
+    }
+
+    &__a {
+        font-family: $navbar;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $main-color;
+    }
+}
+
+.toggle {
+    // margin: 111px 643px;
+    padding: 21px 26px;
+    width: 205px;
+    border: 1px solid black;
+    font-family: $navbar;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $main-color;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    line-height: 2px;
+    max-width: 1350px;
+    margin: 132px 120px 90px 120px;
+}

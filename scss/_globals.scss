@@ -1,0 +1,35 @@
+@import "vars";
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: $navbar;
+}
+
+a,
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin: 90px 120px;
+}
+
+
+// hr {
+//     line-height: 2px;
+//     max-width: 1200px;
+//     margin: 0 120px;
+// }

@@ -1,0 +1,81 @@
+@import "vars";
+@import "container";
+
+.footer {
+    background: #141414;
+    color: #FFFFFF;
+
+    .container {
+        margin: 0 120px;
+        width: 100%;
+    }
+
+    &__title {
+        font-family: $navbar;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $color;
+    }
+
+    &__a {
+
+        font-family: 'Libre Franklin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    &__all {
+        display: grid;
+        grid-template-columns: repeat(2, 60% 40%);
+    }
+
+    &__menu {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5%;
+        line-height: 2.5;
+    }
+
+    &__input {
+        background: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        box-sizing: border-box;
+        border-radius: 0px;
+        width: 221px;
+        height: 48px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    &__input2 {
+        background: #000000;
+        border-radius: 0px;
+        width: 79px;
+        height: 48px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__ul-menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        line-height: 2.5;
+    }
+}
